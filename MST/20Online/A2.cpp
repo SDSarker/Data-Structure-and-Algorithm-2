@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-//Pari nai eta
-//Parle solution dis
+
 
 class Disjoint{
     vector<int> parent;
