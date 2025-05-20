@@ -44,10 +44,11 @@ void JohnsonAlgorithm(vector<vector<int>> graph){
             if(graph[i][j]!=0){
                 adjustedGraph[i][j]=graph[i][j]+adjustedDist[i]-adjustedDist[j];
             }
-            
         }
     }
+
     //Notun graph print kori
+    
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             cout<<adjustedGraph[i][j]<<" ";
